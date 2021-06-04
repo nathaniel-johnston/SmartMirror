@@ -1,0 +1,256 @@
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-03 19:26:21.929] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-03 19:26:21.940] [LOG]    Loading config ...
+[2020-09-03 19:26:21.949] [LOG]    Loading module helpers ...
+[2020-09-03 19:26:21.952] [LOG]    No helper found for module: alert.
+[2020-09-03 19:26:22.031] [LOG]    Initializing new module helper ...
+[2020-09-03 19:26:22.032] [LOG]    Module helper loaded: updatenotification
+[2020-09-03 19:26:22.034] [LOG]    No helper found for module: clock.
+[2020-09-03 19:26:22.703] [LOG]    Initializing new module helper ...
+[2020-09-03 19:26:22.704] [LOG]    Module helper loaded: calendar
+[2020-09-03 19:26:22.705] [LOG]    No helper found for module: compliments.
+[2020-09-03 19:26:22.706] [LOG]    No helper found for module: currentweather.
+[2020-09-03 19:26:22.707] [LOG]    No helper found for module: weatherforecast.
+[2020-09-03 19:26:22.746] [LOG]    Initializing new module helper ...
+[2020-09-03 19:26:22.747] [LOG]    Module helper loaded: newsfeed
+[2020-09-03 19:26:22.747] [LOG]    All module helpers loaded.
+[2020-09-03 19:26:22.933] [LOG]    Starting server on port 8080 ... 
+[2020-09-03 19:26:22.954] [LOG]    Server started ...
+[2020-09-03 19:26:22.955] [LOG]    Connecting socket for: updatenotification
+[2020-09-03 19:26:22.956] [LOG]    Connecting socket for: calendar
+[2020-09-03 19:26:22.957] [LOG]    Starting node helper for: calendar
+[2020-09-03 19:26:22.958] [LOG]    Connecting socket for: newsfeed
+[2020-09-03 19:26:22.958] [LOG]    Starting node helper for: newsfeed
+[2020-09-03 19:26:22.959] [LOG]    Sockets connected & modules started ...
+[2020-09-03 19:26:23.085] [LOG]    Launching application.
+[2020-09-03 19:26:25.507] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-03 19:26:25.562] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-03 19:26:26.386] [INFO]   Newsfeed-Fetcher: Broadcasting 59 items.
+[2020-09-03 19:26:26.549] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-03 19:27:19.497] [LOG]    Shutting down server...
+[2020-09-03 19:27:19.499] [LOG]    Stopping module helper: updatenotification
+[2020-09-03 19:27:19.501] [LOG]    Stopping module helper: calendar
+[2020-09-03 19:27:19.501] [LOG]    Stopping module helper: newsfeed
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-03 19:27:30.352] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-03 19:27:30.363] [LOG]    Loading config ...
+[2020-09-03 19:27:30.371] [LOG]    Loading module helpers ...
+[2020-09-03 19:27:30.375] [LOG]    No helper found for module: alert.
+[2020-09-03 19:27:30.467] [LOG]    Initializing new module helper ...
+[2020-09-03 19:27:30.468] [LOG]    Module helper loaded: updatenotification
+[2020-09-03 19:27:30.469] [LOG]    No helper found for module: clock.
+[2020-09-03 19:27:31.130] [LOG]    Initializing new module helper ...
+[2020-09-03 19:27:31.131] [LOG]    Module helper loaded: calendar
+[2020-09-03 19:27:31.133] [LOG]    No helper found for module: compliments.
+[2020-09-03 19:27:31.134] [LOG]    No helper found for module: currentweather.
+[2020-09-03 19:27:31.135] [LOG]    No helper found for module: weatherforecast.
+[2020-09-03 19:27:31.178] [LOG]    Initializing new module helper ...
+[2020-09-03 19:27:31.178] [LOG]    Module helper loaded: newsfeed
+[2020-09-03 19:27:31.179] [LOG]    All module helpers loaded.
+[2020-09-03 19:27:31.361] [LOG]    Starting server on port 8080 ... 
+[2020-09-03 19:27:31.382] [LOG]    Server started ...
+[2020-09-03 19:27:31.383] [LOG]    Connecting socket for: updatenotification
+[2020-09-03 19:27:31.384] [LOG]    Connecting socket for: calendar
+[2020-09-03 19:27:31.385] [LOG]    Starting node helper for: calendar
+[2020-09-03 19:27:31.386] [LOG]    Connecting socket for: newsfeed
+[2020-09-03 19:27:31.387] [LOG]    Starting node helper for: newsfeed
+[2020-09-03 19:27:31.387] [LOG]    Sockets connected & modules started ...
+[2020-09-03 19:27:31.517] [LOG]    Launching application.
+[2020-09-03 19:27:33.956] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-03 19:27:34.049] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-03 19:27:34.873] [INFO]   Newsfeed-Fetcher: Broadcasting 59 items.
+[2020-09-03 19:27:35.106] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-03 19:27:53.045] [LOG]    Shutting down server...
+[2020-09-03 19:27:53.047] [LOG]    Stopping module helper: updatenotification
+[2020-09-03 19:27:53.048] [LOG]    Stopping module helper: calendar
+[2020-09-03 19:27:53.049] [LOG]    Stopping module helper: newsfeed
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-03 20:08:00.588] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-03 20:08:00.598] [LOG]    Loading config ...
+[2020-09-03 20:08:00.606] [LOG]    Loading module helpers ...
+[2020-09-03 20:08:00.610] [LOG]    No helper found for module: alert.
+[2020-09-03 20:08:00.691] [LOG]    Initializing new module helper ...
+[2020-09-03 20:08:00.692] [LOG]    Module helper loaded: updatenotification
+[2020-09-03 20:08:00.694] [LOG]    No helper found for module: clock.
+[2020-09-03 20:08:01.332] [LOG]    Initializing new module helper ...
+[2020-09-03 20:08:01.332] [LOG]    Module helper loaded: calendar
+[2020-09-03 20:08:01.334] [LOG]    No helper found for module: compliments.
+[2020-09-03 20:08:01.335] [LOG]    No helper found for module: currentweather.
+[2020-09-03 20:08:01.336] [LOG]    No helper found for module: weatherforecast.
+[2020-09-03 20:08:01.378] [LOG]    Initializing new module helper ...
+[2020-09-03 20:08:01.379] [LOG]    Module helper loaded: newsfeed
+[2020-09-03 20:08:01.379] [LOG]    All module helpers loaded.
+[2020-09-03 20:08:01.552] [LOG]    Starting server on port 8080 ... 
+[2020-09-03 20:08:01.571] [LOG]    Server started ...
+[2020-09-03 20:08:01.572] [LOG]    Connecting socket for: updatenotification
+[2020-09-03 20:08:01.574] [LOG]    Connecting socket for: calendar
+[2020-09-03 20:08:01.574] [LOG]    Starting node helper for: calendar
+[2020-09-03 20:08:01.575] [LOG]    Connecting socket for: newsfeed
+[2020-09-03 20:08:01.576] [LOG]    Starting node helper for: newsfeed
+[2020-09-03 20:08:01.577] [LOG]    Sockets connected & modules started ...
+[2020-09-03 20:08:01.842] [LOG]    Launching application.
+[2020-09-03 20:08:04.336] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-03 20:08:04.392] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-03 20:08:05.282] [INFO]   Newsfeed-Fetcher: Broadcasting 59 items.
+[2020-09-03 20:08:05.590] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-03 20:08:34.129] [LOG]    Shutting down server...
+[2020-09-03 20:08:34.131] [LOG]    Stopping module helper: updatenotification
+[2020-09-03 20:08:34.132] [LOG]    Stopping module helper: calendar
+[2020-09-03 20:08:34.134] [LOG]    Stopping module helper: newsfeed
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-03 20:08:50.871] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-03 20:08:50.881] [LOG]    Loading config ...
+[2020-09-03 20:08:50.891] [LOG]    Loading module helpers ...
+[2020-09-03 20:08:50.894] [LOG]    No helper found for module: alert.
+[2020-09-03 20:08:50.976] [LOG]    Initializing new module helper ...
+[2020-09-03 20:08:50.977] [LOG]    Module helper loaded: updatenotification
+[2020-09-03 20:08:50.979] [LOG]    No helper found for module: clock.
+[2020-09-03 20:08:51.646] [LOG]    Initializing new module helper ...
+[2020-09-03 20:08:51.647] [LOG]    Module helper loaded: calendar
+[2020-09-03 20:08:51.648] [LOG]    No helper found for module: compliments.
+[2020-09-03 20:08:51.649] [LOG]    No helper found for module: currentweather.
+[2020-09-03 20:08:51.651] [LOG]    No helper found for module: weatherforecast.
+[2020-09-03 20:08:51.690] [LOG]    Initializing new module helper ...
+[2020-09-03 20:08:51.691] [LOG]    Module helper loaded: newsfeed
+[2020-09-03 20:08:51.692] [LOG]    All module helpers loaded.
+[2020-09-03 20:08:51.877] [LOG]    Starting server on port 8080 ... 
+[2020-09-03 20:08:51.898] [LOG]    Server started ...
+[2020-09-03 20:08:51.899] [LOG]    Connecting socket for: updatenotification
+[2020-09-03 20:08:51.901] [LOG]    Connecting socket for: calendar
+[2020-09-03 20:08:51.902] [LOG]    Starting node helper for: calendar
+[2020-09-03 20:08:51.903] [LOG]    Connecting socket for: newsfeed
+[2020-09-03 20:08:51.904] [LOG]    Starting node helper for: newsfeed
+[2020-09-03 20:08:51.904] [LOG]    Sockets connected & modules started ...
+[2020-09-03 20:08:52.034] [LOG]    Launching application.
+[2020-09-03 20:08:54.499] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-03 20:08:54.590] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-03 20:08:55.716] [INFO]   Newsfeed-Fetcher: Broadcasting 58 items.
+[2020-09-03 20:08:55.996] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-03 20:10:09.965] [LOG]    Shutting down server...
+[2020-09-03 20:10:09.968] [LOG]    Stopping module helper: updatenotification
+[2020-09-03 20:10:09.969] [LOG]    Stopping module helper: calendar
+[2020-09-03 20:10:09.971] [LOG]    Stopping module helper: newsfeed
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-04 13:24:48.871] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-04 13:24:48.921] [LOG]    Loading config ...
+[2020-09-04 13:24:48.931] [LOG]    Loading module helpers ...
+[2020-09-04 13:24:48.934] [LOG]    No helper found for module: alert.
+[2020-09-04 13:24:49.054] [LOG]    Initializing new module helper ...
+[2020-09-04 13:24:49.055] [LOG]    Module helper loaded: updatenotification
+[2020-09-04 13:24:49.057] [LOG]    No helper found for module: clock.
+[2020-09-04 13:24:50.077] [LOG]    Initializing new module helper ...
+[2020-09-04 13:24:50.077] [LOG]    Module helper loaded: calendar
+[2020-09-04 13:24:50.079] [LOG]    No helper found for module: compliments.
+[2020-09-04 13:24:50.080] [LOG]    No helper found for module: currentweather.
+[2020-09-04 13:24:50.081] [LOG]    No helper found for module: weatherforecast.
+[2020-09-04 13:24:50.143] [LOG]    Initializing new module helper ...
+[2020-09-04 13:24:50.144] [LOG]    Module helper loaded: newsfeed
+[2020-09-04 13:24:50.145] [LOG]    All module helpers loaded.
+[2020-09-04 13:24:50.460] [LOG]    Starting server on port 8080 ... 
+[2020-09-04 13:24:50.507] [LOG]    Server started ...
+[2020-09-04 13:24:50.509] [LOG]    Connecting socket for: updatenotification
+[2020-09-04 13:24:50.510] [LOG]    Connecting socket for: calendar
+[2020-09-04 13:24:50.511] [LOG]    Starting node helper for: calendar
+[2020-09-04 13:24:50.512] [LOG]    Connecting socket for: newsfeed
+[2020-09-04 13:24:50.513] [LOG]    Starting node helper for: newsfeed
+[2020-09-04 13:24:50.513] [LOG]    Sockets connected & modules started ...
+[2020-09-04 13:24:50.994] [LOG]    Launching application.
+[2020-09-04 13:24:55.179] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-04 13:24:55.275] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-04 13:24:56.369] [INFO]   Newsfeed-Fetcher: Broadcasting 60 items.
+[2020-09-04 13:24:56.450] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-04 13:28:30.240] [LOG]    Shutting down server...
+[2020-09-04 13:28:30.242] [LOG]    Stopping module helper: updatenotification
+[2020-09-04 13:28:30.244] [LOG]    Stopping module helper: calendar
+[2020-09-04 13:28:30.245] [LOG]    Stopping module helper: newsfeed
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-04 13:29:09.107] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-04 13:29:09.118] [LOG]    Loading config ...
+[2020-09-04 13:29:09.127] [LOG]    Loading module helpers ...
+[2020-09-04 13:29:09.130] [LOG]    No helper found for module: alert.
+[2020-09-04 13:29:09.249] [LOG]    Initializing new module helper ...
+[2020-09-04 13:29:09.251] [LOG]    Module helper loaded: updatenotification
+[2020-09-04 13:29:09.252] [LOG]    No helper found for module: clock.
+[2020-09-04 13:29:10.236] [LOG]    Initializing new module helper ...
+[2020-09-04 13:29:10.237] [LOG]    Module helper loaded: calendar
+[2020-09-04 13:29:10.238] [LOG]    No helper found for module: compliments.
+[2020-09-04 13:29:10.239] [LOG]    No helper found for module: currentweather.
+[2020-09-04 13:29:10.240] [LOG]    No helper found for module: weatherforecast.
+[2020-09-04 13:29:10.299] [LOG]    Initializing new module helper ...
+[2020-09-04 13:29:10.300] [LOG]    Module helper loaded: newsfeed
+[2020-09-04 13:29:10.301] [LOG]    All module helpers loaded.
+[2020-09-04 13:29:10.594] [LOG]    Starting server on port 8080 ... 
+[2020-09-04 13:29:10.614] [LOG]    Server started ...
+[2020-09-04 13:29:10.616] [LOG]    Connecting socket for: updatenotification
+[2020-09-04 13:29:10.617] [LOG]    Connecting socket for: calendar
+[2020-09-04 13:29:10.618] [LOG]    Starting node helper for: calendar
+[2020-09-04 13:29:10.619] [LOG]    Connecting socket for: newsfeed
+[2020-09-04 13:29:10.620] [LOG]    Starting node helper for: newsfeed
+[2020-09-04 13:29:10.621] [LOG]    Sockets connected & modules started ...
+[2020-09-04 13:29:10.816] [LOG]    Launching application.
+[2020-09-04 13:29:13.510] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-04 13:29:13.597] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-04 13:29:14.518] [INFO]   Newsfeed-Fetcher: Broadcasting 61 items.
+[2020-09-04 13:29:14.788] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-04 13:29:24.166] [LOG]    Shutting down server...
+[2020-09-04 13:29:24.167] [LOG]    Stopping module helper: updatenotification
+[2020-09-04 13:29:24.168] [LOG]    Stopping module helper: calendar
+[2020-09-04 13:29:24.169] [LOG]    Stopping module helper: newsfeed
+
+> magicmirror@2.12.0 start /home/pi/MagicMirror
+> DISPLAY="${DISPLAY:=:0}" ./node_modules/.bin/electron js/electron.js
+
+[2020-09-04 13:37:10.758] [LOG]    Starting MagicMirror: v2.12.0
+[2020-09-04 13:37:10.769] [LOG]    Loading config ...
+[2020-09-04 13:37:10.777] [LOG]    Loading module helpers ...
+[2020-09-04 13:37:10.781] [LOG]    No helper found for module: alert.
+[2020-09-04 13:37:10.862] [LOG]    Initializing new module helper ...
+[2020-09-04 13:37:10.864] [LOG]    Module helper loaded: updatenotification
+[2020-09-04 13:37:10.865] [LOG]    No helper found for module: clock.
+[2020-09-04 13:37:11.504] [LOG]    Initializing new module helper ...
+[2020-09-04 13:37:11.505] [LOG]    Module helper loaded: calendar
+[2020-09-04 13:37:11.507] [LOG]    No helper found for module: compliments.
+[2020-09-04 13:37:11.509] [LOG]    No helper found for module: currentweather.
+[2020-09-04 13:37:11.511] [LOG]    No helper found for module: weatherforecast.
+[2020-09-04 13:37:11.552] [LOG]    Initializing new module helper ...
+[2020-09-04 13:37:11.554] [LOG]    Module helper loaded: newsfeed
+[2020-09-04 13:37:11.554] [LOG]    All module helpers loaded.
+[2020-09-04 13:37:11.730] [LOG]    Starting server on port 8080 ... 
+[2020-09-04 13:37:11.750] [LOG]    Server started ...
+[2020-09-04 13:37:11.752] [LOG]    Connecting socket for: updatenotification
+[2020-09-04 13:37:11.754] [LOG]    Connecting socket for: calendar
+[2020-09-04 13:37:11.755] [LOG]    Starting node helper for: calendar
+[2020-09-04 13:37:11.756] [LOG]    Connecting socket for: newsfeed
+[2020-09-04 13:37:11.757] [LOG]    Starting node helper for: newsfeed
+[2020-09-04 13:37:11.758] [LOG]    Sockets connected & modules started ...
+[2020-09-04 13:37:11.883] [LOG]    Launching application.
+[2020-09-04 13:37:14.426] [LOG]    Create new calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics - Interval: 300000
+[2020-09-04 13:37:14.498] [LOG]    Create new news fetcher for url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml - Interval: 300000
+[2020-09-04 13:37:15.422] [INFO]   Newsfeed-Fetcher: Broadcasting 60 items.
+[2020-09-04 13:37:15.714] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-04 13:42:14.173] [LOG]    Use existing calendar fetcher for url: http://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics
+[2020-09-04 13:42:14.176] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-04 13:42:14.505] [INFO]   Calendar-Fetcher: Broadcasting 6 events.
+[2020-09-04 13:42:16.217] [INFO]   Newsfeed-Fetcher: Broadcasting 60 items.
+[2020-09-04 13:43:51.956] [LOG]    Shutting down server...
+[2020-09-04 13:43:51.958] [LOG]    Stopping module helper: updatenotification
+[2020-09-04 13:43:51.959] [LOG]    Stopping module helper: calendar
+[2020-09-04 13:43:51.960] [LOG]    Stopping module helper: newsfeed

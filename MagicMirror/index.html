@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MagicMirror²</title>
+	<meta name="google" content="notranslate" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="mobile-web-app-capable" content="yes">
+
+	<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto.css">
+	<!-- custom.css is loaded by the loader.js to make sure it's loaded after the module css files. -->
+
+	<script type="text/javascript">
+		var version = "#VERSION#";
+	</script>
+</head>
+<body>
+	<div class="region fullscreen below"><div class="container"></div></div>
+	<div class="region top bar">
+		<div class="container"></div>
+		<div class="region top left"><div class="container"></div></div>
+		<div class="region top center"><div class="container"></div></div>
+		<div class="region top right"><div class="container"></div></div>
+	</div>
+	<div class="region upper third"><div class="container"></div></div>
+	<div class="region middle center"><div class="container"></div></div>
+	<div class="region lower third"><div class="container"><br/></div></div>
+	<div class="region bottom bar">
+		<div class="container"></div>
+		<div class="region bottom left"><div class="container"></div></div>
+		<div class="region bottom center"><div class="container"></div></div>
+		<div class="region bottom right"><div class="container"></div></div>
+	</div>
+	<div class="region fullscreen above"><div class="container"></div></div>
+	<script type="text/javascript" src="socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="vendor/node_modules/nunjucks/browser/nunjucks.min.js"></script>
+	<script type="text/javascript" src="js/defaults.js"></script>
+	<script type="text/javascript" src="#CONFIG_FILE#"></script>
+	<script type="text/javascript" src="vendor/vendor.js"></script>
+	<script type="text/javascript" src="modules/default/defaultmodules.js"></script>
+	<script type="text/javascript" src="js/logger.js"></script>
+	<script type="text/javascript" src="translations/translations.js"></script>
+	<script type="text/javascript" src="js/translator.js"></script>
+	<script type="text/javascript" src="js/class.js"></script>
+	<script type="text/javascript" src="js/module.js"></script>
+	<script type="text/javascript" src="js/loader.js"></script>
+	<script type="text/javascript" src="js/socketclient.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script src="https://sdk.scdn.co/spotify-player.js"></script>
+	<script>
+		window.onSpotifyWebPlaybackSDKReady = () => {
+			const token = 'BQB7rx6pk6JdJn9OSKGVZbLbz3TIt7O3ZpfyYX17Ro2HoidVPmgpwWybM3-qkFwSyB6QSXDzp57H6QAJGgClnjrU-XmfI4AhEAngrGSWtZ7kIYeOVWhdghWD6gV6T_IQBRepwGpZIXXbsPvjjH7PguV7mJxldelIguq1';
+			const player = new Spotify.Player({
+			name: 'Web Playback SDK Quick Start Player',
+			getOAuthToken: cb => { cb(token); }
+			});
+
+			// Error handling
+			player.addListener('initialization_error', ({ message }) => { console.error(message); });
+			player.addListener('authentication_error', ({ message }) => { console.error(message); });
+			player.addListener('account_error', ({ message }) => { console.error(message); });
+			player.addListener('playback_error', ({ message }) => { console.error(message); });
+
+			// Playback status updates
+			player.addListener('player_state_changed', state => { console.log(state); });
+
+			// Ready
+			player.addListener('ready', ({ device_id }) => {
+			console.log('Ready with Device ID', device_id);
+			});
+
+			// Not Ready
+			player.addListener('not_ready', ({ device_id }) => {
+			console.log('Device ID has gone offline', device_id);
+			});
+
+			// Connect to the player!
+			player.connect();
+		};
+	</script>
+</body>
+</html>
