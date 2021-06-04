@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartmirror"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:6:5-68
+11-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+14-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:9:5-75
+14-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:9:22-72
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:10:5-76
+15-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:10:22-74
+16
+17    <application
+17-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:12:5-45:19
+18        android:name="com.example.smartmirror.SmartMirror"
+18-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:13:9-59
+19        android:allowBackup="true"
+19-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:16:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:18:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:19:9-40
+29        <service android:name="org.eclipse.paho.android.service.MqttService" />
+29-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:20:9-80
+29-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:20:18-77
+30        <service
+30-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:21:9-23:39
+31            android:name="com.example.smartmirror.SpotifyService"
+31-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:22:13-43
+32            android:exported="false" />
+32-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:23:13-37
+33        <service
+33-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:24:9-26:39
+34            android:name="com.example.smartmirror.MQTTService"
+34-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:25:13-40
+35            android:exported="false" />
+35-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:26:13-37
+36
+37        <activity android:name="com.example.smartmirror.MainActivity" >
+37-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:27:9-44:20
+37-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:27:19-47
+38            <intent-filter>
+38-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:28:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:29:17-69
+39-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:29:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:31:17-77
+41-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:31:27-74
+42            </intent-filter>
+43            <intent-filter>
+43-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:34:13-43:29
+44                <action android:name="android.intent.action.VIEW" />
+44-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:35:17-68
+44-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:35:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:37:17-75
+46-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:37:27-73
+47                <category android:name="android.intent.category.BROWSABLE" />
+47-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:38:17-77
+47-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:38:27-75
+48
+49                <data
+49-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:40:17-42:51
+50                    android:host="callback"
+50-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:41:21-44
+51                    android:scheme="smartmirror" />
+51-->C:\Users\user\AndroidStudioProjects\smartmirror\app\src\main\AndroidManifest.xml:42:21-49
+52            </intent-filter>
+53        </activity>
+54    </application>
+55
+56</manifest>
